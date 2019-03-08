@@ -1,17 +1,24 @@
 # Taller del T3chfest'19
 ### Desarrolla tu Survival Alert con Node.js
 
+![Banner Molón](OTROS/SurvApp-header.png)
 
-![img](OTROS/Sfearthquake3b.jpg)
+### Módulos 
 
-> Fires of the 1906 San Francisco earthquake [Wikipedia](https://en.wikipedia.org/wiki/Earthquake)
+- [`lib/air.js`](lib/air.js)
+- [`lib/cameras.js`](lib/cameras.js)
+- [`lib/earthquakes.js`](lib/earthquakes.js)
+- [`lib/global.js`](lib/global.js)
+- [`lib/maps.js`](lib/maps.js)
+- [`lib/news.js`](lib/news.js)
 
-### Módulo equakes
+### Usar los módulos
 
 **Usar el módulo**
-- Instalar dependencias `npm install`
-- Lanzar el módulo `node equakes`
-- Explorar `lib/earthquakes.js` y `/equakes.js` para entender el funcionamiento.
+- Instalar dependencias `npm install`.
+- Añade tus módulos a `node survapp`.
+- Debes añadir tus tokens en `config.js`.
+- Explorar la carpeta `/lib` y para entender el funcionamiento de todos los módulos.
 
 **Dependencias**
 - [Got](https://www.npmjs.com/package/got) *Got is a human-friendly and powerful HTTP request library.*
@@ -27,5 +34,19 @@ const got = require('got');
         console.log(error.response.body);
         //=> 'Internal server error ...'
     }
+})();
+```
+
+- [puppeteer](https://www.npmjs.com/package/puppeteer) *Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol.*
+```js
+const puppeteer = require('puppeteer');
+ 
+(async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://example.com');
+  await page.screenshot({path: 'example.png'});
+ 
+  await browser.close();
 })();
 ```

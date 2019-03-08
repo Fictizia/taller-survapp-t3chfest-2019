@@ -1,8 +1,8 @@
 {
-  "name": "equakes",
-  "version": "1.0.0",
-  "description": "equakes",
-  "main": "equakes.js",
+  "name": "survapp",
+  "version": "0.1.0",
+  "description": "survapp modules",
+  "main": "survapp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/UlisesGascon/prep-t3chfest-2019#readme",
   "dependencies": {
-    "got": "9.6.0"
+    "got": "9.6.0",
+    "puppeteer": "1.11.0"
   }
 }
