@@ -1,0 +1,22 @@
+{
+  "name": "equakes",
+  "version": "1.0.0",
+  "description": "equakes",
+  "main": "equakes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/prep-t3chfest-2019.git"
+  },
+  "author": "Ulises Gascón",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/prep-t3chfest-2019/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/prep-t3chfest-2019#readme",
+  "dependencies": {
+    "got": "9.6.0"
+  }
+}
