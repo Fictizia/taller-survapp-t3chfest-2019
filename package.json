@@ -1,0 +1,30 @@
+{
+  "name": "survapp",
+  "version": "1.0.0",
+  "description": "SurvAPP :muscle:",
+  "main": "config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "got": "9.6.0",
+    "puppeteer": "1.11.0",
+    "telegraf": "3.27.0",
+    "terminal-image": "0.1.2",
+    "vorpal": "1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/prep-t3chfest-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/prep-t3chfest-2019/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/prep-t3chfest-2019#readme"
+}
