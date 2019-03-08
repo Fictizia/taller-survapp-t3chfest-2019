@@ -12,13 +12,24 @@
 - [`lib/maps.js`](lib/maps.js)
 - [`lib/news.js`](lib/news.js)
 
-### Usar los módulos
+### Helpers 
+
+- [`helpers/telegram.js`](helpers/telegram.js)
+
+### Survapp BOT
+
+**Demo**
+![gif-demo](/OTROS/large.gif)
+
+
+ 
+### Survapp BOT en detalle
 
 **Usar el módulo**
 - Instalar dependencias `npm install`.
-- Añade tus módulos a `node survapp`.
 - Debes añadir tus tokens en `config.js`.
-- Explorar la carpeta `/lib` y para entender el funcionamiento de todos los módulos.
+- Ejecuta `node survapp.bot.js`.
+- Explorar la carpeta `/lib` y `/helpers` para entender el funcionamiento de todos los módulos.
 
 **Dependencias**
 - [Got](https://www.npmjs.com/package/got) *Got is a human-friendly and powerful HTTP request library.*
