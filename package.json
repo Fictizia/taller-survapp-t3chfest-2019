@@ -1,8 +1,8 @@
 {
   "name": "survapp",
-  "version": "0.1.0",
-  "description": "survapp modules",
-  "main": "survapp.js",
+  "version": "0.2.0",
+  "description": "survapp CLI",
+  "main": "survapp.cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/UlisesGascon/prep-t3chfest-2019#readme",
   "dependencies": {
     "got": "9.6.0",
-    "puppeteer": "1.11.0"
+    "puppeteer": "1.11.0",
+    "terminal-image": "0.1.2",
+    "vorpal": "1.12.0"
   }
 }

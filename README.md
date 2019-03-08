@@ -12,13 +12,36 @@
 - [`lib/maps.js`](lib/maps.js)
 - [`lib/news.js`](lib/news.js)
 
-### Usar los módulos
+### Helpers 
+
+- [`helpers/cli.js`](helpers/cli.js)
+
+### Survapp CLI
+
+**Demo Earthquakes**
+![gif-demo](/OTROS/survapp-cli-earthquakes/large.gif)
+
+
+**Demo Help**
+![gif-demo](/OTROS/survapp-cli-help/large.gif)
+
+
+**Demo Images**
+
+![gif-demo](/OTROS/survapp-cli-images/large.gif)
+
+
+**Demo News**
+![gif-demo](/OTROS/survapp-cli-news/large.gif)
+
+ 
+### Survapp CLI en detalle
 
 **Usar el módulo**
 - Instalar dependencias `npm install`.
-- Añade tus módulos a `node survapp`.
+- Ejecuta `node survapp.cli.js`.
 - Debes añadir tus tokens en `config.js`.
-- Explorar la carpeta `/lib` y para entender el funcionamiento de todos los módulos.
+- Explorar la carpeta `/lib` y `/helper` para entender el funcionamiento de todos los módulos.
 
 **Dependencias**
 - [Got](https://www.npmjs.com/package/got) *Got is a human-friendly and powerful HTTP request library.*
@@ -48,5 +71,22 @@ const puppeteer = require('puppeteer');
   await page.screenshot({path: 'example.png'});
  
   await browser.close();
+})();
+```
+
+- [chalk](https://www.npmjs.com/package/chalk) *Terminal string styling done right*
+```js
+const chalk = require('chalk');
+ 
+console.log(chalk.blue('Hello world!'));
+```
+
+- [terminal-image](https://www.npmjs.com/package/terminal-image) *Display images in the terminal*
+
+```js
+const terminalImage = require('terminal-image');
+ 
+(async () => {
+    console.log(await terminalImage.file('unicorn.jpg'));
 })();
 ```
