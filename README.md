@@ -6,12 +6,16 @@
 
 > Fires of the 1906 San Francisco earthquake [Wikipedia](https://en.wikipedia.org/wiki/Earthquake)
 
-### Módulo equakes
+### Equakes CLI
+
+**Demo**
+
+![demo_gif](OTROS/equakes.cli.gif)
 
 **Usar el módulo**
 - Instalar dependencias `npm install`
-- Lanzar el módulo `node equakes`
-- Explorar `lib/earthquakes.js` y `/equakes.js` para entender el funcionamiento.
+- Lanzar el módulo `node equakes.cli.js`
+- Explorar `lib/earthquakes.js` y `/equakes.cli.js` para entender el funcionamiento.
 
 **Dependencias**
 - [Got](https://www.npmjs.com/package/got) *Got is a human-friendly and powerful HTTP request library.*
@@ -28,4 +32,11 @@ const got = require('got');
         //=> 'Internal server error ...'
     }
 })();
+```
+
+- [chalk](https://www.npmjs.com/package/chalk) *Terminal string styling done right*
+```js
+const chalk = require('chalk');
+ 
+console.log(chalk.blue('Hello world!'));
 ```
