@@ -6,12 +6,20 @@
 
 > Fires of the 1906 San Francisco earthquake [Wikipedia](https://en.wikipedia.org/wiki/Earthquake)
 
+
+### Equakes BOT
+
+**Demo**
+
+![demo_gif](OTROS/large.gif)
+
 ### Módulo equakes
 
 **Usar el módulo**
 - Instalar dependencias `npm install`
-- Lanzar el módulo `node equakes`
-- Explorar `lib/earthquakes.js` y `/equakes.js` para entender el funcionamiento.
+- Acualizar `config.js` con tus tokens
+- Lanzar el módulo `node equakes.bot.js`
+- Explorar `lib/earthquakes.js` y `/equakes.bot.js` para entender el funcionamiento.
 
 **Dependencias**
 - [Got](https://www.npmjs.com/package/got) *Got is a human-friendly and powerful HTTP request library.*
